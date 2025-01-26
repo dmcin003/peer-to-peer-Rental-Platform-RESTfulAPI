@@ -20,6 +20,8 @@ $ use localhost:8080/ping endpoint to make sure you have successfully connected 
 
 $ Once connected you can configure the rest of the api in your client
 
+$ To empty db delete db.json file and restart the server.
+
 ### API Documentation
 
 GET /ping
