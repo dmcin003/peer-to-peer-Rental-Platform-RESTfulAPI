@@ -3,6 +3,11 @@ import { listItem, searchItems, returnItem, rentItem } from "./controller.js";
 
 const router = Router();
 
+
+router.get("/ping",async (req,res)=>{
+  res.json('ping successful');
+})
+
 router.get("/search", async (req, res) => {
   const { name, minPrice, maxPrice } = req.query;
   const items = await searchItems(name, minPrice, maxPrice);

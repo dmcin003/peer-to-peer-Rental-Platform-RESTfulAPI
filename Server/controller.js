@@ -47,6 +47,9 @@ export const searchItems = async (name, minPrice, maxPrice) => {
 };
 
 export const rentItem = async (userId, itemId, startDate, endDate) => {
+  if(!userId){
+    return {success:false,message:"Please enter a userID"}
+  }
   try {
     const item = await getItemById(itemId);
     if (item) {
