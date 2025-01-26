@@ -1,0 +1,30 @@
+{
+  "name": "peer-to-peer-rental-platform-restfulapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcin003/Peer-to-Peer-Rental-Platform-Backend.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcin003/Peer-to-Peer-Rental-Platform-Backend/issues"
+  },
+  "homepage": "https://github.com/dmcin003/Peer-to-Peer-Rental-Platform-Backend#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "lowdb": "^7.0.1",
+    "moment": "^2.30.1",
+    "morgan": "^1.10.0",
+    "uuid": "^11.0.5"
+  }
+}
