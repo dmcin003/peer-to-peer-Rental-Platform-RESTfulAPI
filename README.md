@@ -141,6 +141,8 @@ Potential Improvements
 
     - Add more attributes to items for more filtering options.(example: add a type attribute to allow user to filter by type of item when searching)
 
+    - Add more unit tests for full coverage of api.
+
 
 
 
